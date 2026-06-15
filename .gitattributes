@@ -1,0 +1,20 @@
+# 统一换行符，避免跨平台协作时 meta/场景文件产生无意义 diff
+* text=auto eol=lf
+
+# Cocos 序列化文件按文本处理（JSON），便于 diff/merge
+*.scene text
+*.prefab text
+*.meta text
+*.ts text
+*.json text
+*.md text
+
+# 二进制资源
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ttf binary
+*.mp3 binary
+*.ogg binary
+*.wav binary

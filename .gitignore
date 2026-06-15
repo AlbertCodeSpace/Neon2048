@@ -1,0 +1,25 @@
+# Cocos Creator 编辑器生成的缓存与构建产物（可重建）
+library/
+temp/
+local/
+build/
+profiles/
+native/
+
+# 依赖
+node_modules/
+
+# 第三方扩展（自带 git 仓库，本地安装即可）
+extensions/cocos-mcp-server/
+
+# IDE
+.vscode/
+.idea/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志与临时文件
+*.log
+.playwright-mcp/
